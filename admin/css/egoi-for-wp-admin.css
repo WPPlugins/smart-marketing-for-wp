@@ -1,0 +1,186 @@
+.div-error{
+ 	color: #900;
+    text-align: center;
+    background: #ddd;
+    font-size: 25px;
+    height: 26px;
+}
+.egoi_apikey_ok{
+    background: #900;
+    color: #ddd;
+    padding: 4px;
+    cursor: pointer;
+}
+
+#valid, #active{
+   background: url('../img/check.png') no-repeat;
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background-size: 20px;
+}
+
+#error, #inactive{
+   background: url('../img/error.png') no-repeat;
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background-size: 20px;
+}
+
+#load, #load_data, #load_map, #load_sync{
+   background: url('../img/load.gif') no-repeat;
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background-size: 20px;
+}
+
+#error_map{
+    background: url('../img/error.png') no-repeat;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    background-size: 20px;
+    padding-left: 5%;
+    color: #900;
+    font-style: italic;
+    margin-left: 25%;
+}
+
+.sidebar{
+	width: 30%;
+	float:right;
+}
+
+.col-4{
+	width: 67%;
+	float: left;
+	max-width: 100%;
+}
+
+.egoi-box{
+	border-left:1px solid #ccc;
+	padding-left: 20px;
+}
+
+.logo{
+	background: url('../img/logo.png') no-repeat;
+	background-position: left center;
+	line-height: 32px;
+	padding-left: 40px;
+}
+
+.tab{
+	display: none;
+}
+.tab-active{
+	display: block;
+}
+
+.egoi-bar{
+    text-align: -webkit-center;
+   	box-shadow: 1px 1px 1px #666;
+   	width: 100%;
+   	padding: 6px;
+}
+
+.nav-preview{
+	cursor: pointer;
+    border-bottom: none;
+    margin-left: .5em;
+    padding: 5px 10px;
+}
+.egoi-email{
+	padding: 5px;
+}
+.egoi-label{
+	font-size: 18px;
+    padding: 5px;
+    vertical-align: text-bottom;
+}
+
+.beta, .beta:hover{
+	background: url('../img/beta.png') no-repeat !important;
+	background-size: 50px !important;
+}
+
+.egoi-premium{
+    background: #666;
+    color: #ddd;
+    text-align: -webkit-center;
+}
+
+.content{
+    text-align: -webkit-center;
+    padding: 20px;
+}
+
+.btn{
+	  display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: 0;
+}
+.form-input{
+	  display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.main-form{
+	width: 80%;
+    margin-left: 10%;
+}
+
+.label-email{
+	cursor:none;
+	line-height: 40px;
+	font-size: 18px;
+}
+.label-name{
+	cursor:none;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+#wp-form_content-wrap{
+  position: static !important;
+}
+
+.wp-editor-tools{
+  position: static !important;
+}
+
+.egoi_sinc_users{
+    text-align:center; 
+    font-style:italic;
+}
